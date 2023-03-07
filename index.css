@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: rgb(233, 245, 241);
+    margin: 5px 50px 5px 50px;
+}
+
+/* Style the header */
+header {
+    background-color: bisque;
+    color: #04acf4;
+    padding: 20px;
+    border-radius: 8px;
+
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #ea0707;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Style the main content */
+main {
+    margin: 20px 0;
+}
+
+article {
+    border: 1px solid #710be5;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+article h2 {
+    margin-top: 0;
+}
+
+article p {
+    line-height: 1.5;
+}
+
+article footer {
+    margin-top: 20px;
+    color: #999;
+}
+
+article footer a {
+    color: #999;
+    text-decoration: none;
+}
+
+article footer a:hover {
+    text-decoration: underline;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: rgb(5, 5, 5);
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.nav-items {
+    padding: 5px 50px 5px 50px
+}
+
+.card-outline {
+    background-color: #a2e18b;
+    border-radius: 8px;
+}
+
+img {
+    height: 100%;
+    text-align: center;
+    size: 100p0x;
+}
+
+.para {
+    text-align: left;
+    line-height: 2rem;
+
+}
+
+.para1 {
+    line-height: 2rem;
+}
+
+button {
+    padding: 10px;
+    border-radius: 8px;
+    background-color: aqua;
+
+}
+
+button:hover {
+    background-color: rgb(233, 241, 3);
+}
+@media (min-width:300px) {
+    img{
+        height: 80px;
+
+    }
+
+    
+}
+@media (min-width:350px) {
+    img{
+        height: 100px;
+
+    }
+
+    
+}
+
+@media (min-width:500px) {
+    img{
+        height: 80px;
+
+    }
+
+    
+}
+
+@media (min-width:750px) {
+    img{
+        height: 300px;
+
+    }
+
+    
+}
+@media (min-width:800px )  {
+    img{
+        height: 300px;
+
+    }
+
+    
+}
+@media (min-width: 990px){
+    img{
+        height: 120px;
+
+    }
+    *{
+        margin: 0px;
+    }
+
+   
+}
+@media (min-width: 1000px){
+    img{
+        height: 400px;
+
+    }
+    *{
+        margin: 0px;
+    }
+
+   
+}
+
